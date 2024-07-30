@@ -10,14 +10,15 @@ function products() {
           <img
             src="https://m.media-amazon.com/images/I/6125yAfsJKL._AC_UX575_.jpg"
             alt="shoe"
+            className="card-img"
           />
           <div className="card-details">
             <h3 className="card-title">Shoe</h3>
             <section className="card-reviews">
-              <AiFillStar />
-              <AiFillStar />
-              <AiFillStar />
-              <AiFillStar />
+              <AiFillStar className="rating-stars" />
+              <AiFillStar className="rating-stars" />
+              <AiFillStar className="rating-stars" />
+              <AiFillStar className="rating-stars" />
               <span className="total-reviews">4</span>
             </section>
             <section className="card-prices">
