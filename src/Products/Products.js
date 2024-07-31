@@ -21,12 +21,12 @@ function products() {
               <AiFillStar className="rating-stars" />
               <span className="total-reviews">4</span>
             </section>
-            <section className="card-prices">
+            <section className="card-price">
               <div className="price">
                 $<del>300</del> $200
               </div>
               <div className="bag">
-                <BsFillBagFill />
+                <BsFillBagFill className="bag-icon" />
               </div>
             </section>
           </div>
