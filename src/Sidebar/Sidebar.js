@@ -3,13 +3,14 @@ import Colors from "./Colors/Colors";
 import Price from "./Price/Price";
 import "./Sidebar.css";
 import { GiShoppingCart } from "react-icons/gi";
+import { ImRocket } from "react-icons/im";
 
 function Sidebar({ handleChange }) {
   return (
     <>
       <section className="sidebar">
         <div className="logo-container">
-          <GiShoppingCart size={40} />
+          <ImRocket size={40} style={{ top: "20px" }} />
         </div>
         <Category handleChange={handleChange} />
         <Price handleChange={handleChange} />

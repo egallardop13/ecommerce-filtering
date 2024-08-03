@@ -2,8 +2,8 @@ import { useState } from "react";
 import Navigation from "./Navigation/Nav";
 import Products from "./Products/Products";
 import Recommended from "./Recommended/Recommended";
-import Category from "./Sidebar/Category/Category.js";
 import Sidebar from "./Sidebar/Sidebar";
+import "./index.js";
 
 import products from "./db/data.js";
 import Card from "./components/Card.js";
